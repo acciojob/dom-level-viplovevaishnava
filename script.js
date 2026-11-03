@@ -4,7 +4,7 @@ let count = -1
 
 while (currentElement) {
     count++
-    currentElement = element.parentElement
+    currentElement = currentElement.parentElement
 
 }
 alert(`The level of the element is: ${count}`)
